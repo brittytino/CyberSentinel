@@ -13,27 +13,27 @@ import {
 
 const data = [
   {
-    subject: "Marketing",
+    subject: "12:00",
     A: 110,
   },
   {
-    subject: "Research",
+    subject: "15:00",
     A: 98,
   },
   {
-    subject: "Sales",
+    subject: "17:00",
     A: 86,
   },
   {
-    subject: "Ops",
+    subject: "21:00",
     A: 99,
   },
   {
-    subject: "HR",
+    subject: "00:00",
     A: 85,
   },
   {
-    subject: "Dev",
+    subject: "03:00",
     A: 65,
   },
 ];

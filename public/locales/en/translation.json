@@ -2,13 +2,13 @@
   "admin": {
     "drawer": {
       "menu": {
-        "calendar": "Calendar",
+        "calendar": "Scheduling",
         "dashboard": "Dashboard",
         "help": "Help",
         "home": "Home",
-        "projects": "Projects",
+        "projects": "ChatBot",
         "settings": "Settings",
-        "userManagement": "Users"
+        "userManagement": "Products"
       }
     },
     "header": {
@@ -210,22 +210,22 @@
   },
   "dashboard": {
     "activity": {
-      "title": "Activity"
+      "title": "Track Vulnerablities"
     },
     "budget": {
       "legend": {
         "unit": "Budget ($K)"
       },
-      "title": "Budget"
+      "title": "Schedule Scan"
     },
     "orderProgress": {
       "title": "Orders"
     },
     "overview": {
-      "orders": "Orders",
-      "sales": "Sales",
-      "users": "Users",
-      "visits": "Visits"
+      "orders": "Low",
+      "sales": "Total H/S",
+      "users": "Resolved",
+      "visits": "Total Vulnerability Scan"
     },
     "progress": {
       "title": "Progress"
@@ -242,7 +242,7 @@
       "title": "Sales by Category"
     },
     "salesHistory": {
-      "title": "Sales History",
+      "title": "Scanned Firmware",
       "unit": "$ today"
     },
     "salesProgress": {
@@ -454,7 +454,7 @@
       }
     },
     "toolbar": {
-      "title": "Users"
+      "title": "Products"
     }
   }
 }

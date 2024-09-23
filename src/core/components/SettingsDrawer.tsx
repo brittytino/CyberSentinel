@@ -91,11 +91,6 @@ const SettingsDrawer = ({ onDrawerToggle, open }: SettingsDrawerProps) => {
               control={<Radio />}
               label={t("settings.drawer.language.options.en")}
             />
-            <FormControlLabel
-              value="fr"
-              control={<Radio />}
-              label={t("settings.drawer.language.options.fr")}
-            />
           </RadioGroup>
         </FormControl>
         <Typography gutterBottom id="settings-mode" marginTop={3} variant="h6">
