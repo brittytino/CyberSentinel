@@ -31,7 +31,7 @@ const Login = () => {
   const formik = useFormik({
     initialValues: {
       email: "demo@example.com",
-      password: "guWEK<'r/-47-XG3",
+      password: "cybersentinel",
     },
     validationSchema: Yup.object({
       email: Yup.string()

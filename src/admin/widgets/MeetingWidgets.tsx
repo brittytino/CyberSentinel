@@ -14,21 +14,21 @@ import { Link as RouterLink } from "react-router-dom";
 const meetings = [
   {
     id: "1",
-    person: "Emmy Anderson",
+    person: "Schedule 1",
     date: "8:00 - 10:00",
-    image: "img/portrait-1.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Eo_circle_blue_number-1.svg/2048px-Eo_circle_blue_number-1.svg.png",
   },
   {
     id: "2",
-    person: "Joy McGlynn",
+    person: "Schedule 2",
     date: "11:00 - 12:00",
-    image: "img/portrait-2.jpg",
+    image: "https://cdn-icons-png.flaticon.com/512/6947/6947566.png",
   },
   {
     id: "3",
-    person: "Mara Dach",
+    person: "Schedule 3",
     date: "14:00 - 15:00",
-    image: "img/portrait-3.jpg",
+    image: "https://cdn-icons-png.flaticon.com/512/6335/6335597.png",
   },
 ];
 

@@ -5,43 +5,43 @@
     "code": "eventAdded",
     "createdAt": 1617868226000,
     "params": {
-      "resource": "React Summit"
+      "resource": "OEM Scan 1"
     }
   },
   {
     "id": "2",
-    "actor": "John Smith",
+    "actor": "Tino Britty",
     "code": "eventUpdated",
     "createdAt": 1617868226000,
     "params": {
-      "resource": "React Summit"
+      "resource": "OEM Scan 5"
     }
   },
   {
     "id": "3",
-    "actor": "John Smith",
+    "actor": "Tino Britty",
     "code": "userDeleted",
     "createdAt": 1617868226000,
     "params": {
-      "resource": "John Smith"
+      "resource": "OEM Scan 8"
     }
   },
   {
     "id": "4",
-    "actor": "John Smith",
+    "actor": "Tino Britty",
     "code": "userUpdated",
     "createdAt": 1617868226000,
     "params": {
-      "resource": "John Smith"
+      "resource": "OEM Scan 7"
     }
   },
   {
     "id": "5",
-    "actor": "John Smith",
+    "actor": "Tino Britty",
     "code": "userAdded",
     "createdAt": 1617868226000,
     "params": {
-      "resource": "John Smith"
+      "resource": "OEM Scan 14"
     }
   }
 ]

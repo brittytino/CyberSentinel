@@ -1,9 +1,9 @@
 {
-  "name": "react-material-admin",
+  "name": "cybersentinel-admin",
   "version": "0.1.0-alpha",
   "description": "Free and open-source admin application made with React",
   "author": "m6v3l9 <m6v3l9@gmail.com>",
-  "homepage": "https://m6v3l9.github.io/react-material-admin",
+  "homepage": "https://m6v3l9.github.io/cybersentinel-admin",
   "license": "MIT",
   "dependencies": {
     "@emotion/react": "^11.1.5",
@@ -72,5 +72,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack": "^5.94.0"
   }
 }

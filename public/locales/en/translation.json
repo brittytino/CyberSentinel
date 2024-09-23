@@ -33,17 +33,17 @@
         }
       },
       "meeting": {
-        "title": "Meetings"
+        "title": "Schedule for Next Scanning"
       },
       "targets": {
-        "income": "Income",
-        "followers": "Followers",
-        "title": "Targets",
-        "views": "Views"
+        "income": "Critical",
+        "followers": "Medium",
+        "title": "Threats",
+        "views": "Low"
       },
       "views": {
         "action": "View Dashboard",
-        "unit": "Views"
+        "unit": "Total Vulnerablities Scanned"
       },
       "welcome": {
         "message": "This page is designed to give some important information about the application. Let's make someting together!",
@@ -267,7 +267,7 @@
   "faq": {
     "noAnswerLink": "Can't find it here? Check out our Help Center.",
     "questions": {
-      "title1": "What is React Admin?",
+      "title1": "What is CyberSentinel?",
       "answer1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortiseget.",
       "title2": "How does it work?",
       "answer2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortiseget.",
@@ -301,7 +301,7 @@
       "more": "More on Github",
       "title": "Main Features"
     },
-    "title": "Free and open-source admin application made with React and Material-UI"
+    "title": "'CyberSentinel' Web Scraping-Intelligent Vulnerability Monitoring and Protection"
   },
   "notifications": {
     "newComment": "<bold>{{user}}</bold> has written a new comment on your profile",
