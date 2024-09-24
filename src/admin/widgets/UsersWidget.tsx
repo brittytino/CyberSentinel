@@ -17,24 +17,24 @@ import { Link as RouterLink } from "react-router-dom";
 const users = [
   {
     id: "1",
-    firstName: "Rhys",
+    firstName: "",
     gender: "M",
-    lastName: "Arriaga",
-    role: "Admin",
+    lastName: "Webnote",
+    role: "Medium",
   },
   {
     id: "2",
-    firstName: "Laura",
+    firstName: "Servers",
     gender: "F",
-    lastName: "Core",
-    role: "Member",
+    lastName: "",
+    role: "Low",
   },
   {
     id: "3",
-    firstName: "Joshua",
+    firstName: "Desktop Computers",
     gender: "M",
-    lastName: "Jagger",
-    role: "Member",
+    lastName: "",
+    role: "Critical",
   },
 ];
 
@@ -66,7 +66,7 @@ const UsersWidget = () => {
                   aria-label="Go to user details"
                   component={RouterLink}
                   edge="end"
-                  to={`/${process.env.PUBLIC_URL}/admin/user-management`}
+                  to={`/${process.env.PUBLIC_URL}/admin/products`}
                 >
                   <ChevronRightIcon />
                 </IconButton>

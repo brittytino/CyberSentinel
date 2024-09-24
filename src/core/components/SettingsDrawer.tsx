@@ -110,45 +110,8 @@ const SettingsDrawer = ({ onDrawerToggle, open }: SettingsDrawerProps) => {
             {t("settings.drawer.mode.options.dark")}
           </ToggleButton>
         </ToggleButtonGroup>
-        <Typography gutterBottom id="settings-mode" marginTop={3} variant="h6">
-          {t("settings.drawer.direction.label")}
-        </Typography>
-        <ToggleButtonGroup
-          color="primary"
-          value={direction}
-          exclusive
-          fullWidth
-          onChange={handleDirectionChange}
-        >
-          <ToggleButton value="ltr">
-            {t("settings.drawer.direction.options.ltr")}
-          </ToggleButton>
-          <ToggleButton value="rtl">
-            {t("settings.drawer.direction.options.rtl")}
-          </ToggleButton>
-        </ToggleButtonGroup>
-        <Typography
-          gutterBottom
-          id="settings-sidebar"
-          marginTop={3}
-          variant="h6"
-        >
-          {t("settings.drawer.sidebar.label")}
-        </Typography>
-        <ToggleButtonGroup
-          color="primary"
-          value={collapsed}
-          exclusive
-          fullWidth
-          onChange={handleSidebarChange}
-        >
-          <ToggleButton value={true}>
-            {t("settings.drawer.sidebar.options.collapsed")}
-          </ToggleButton>
-          <ToggleButton value={false}>
-            {t("settings.drawer.sidebar.options.full")}
-          </ToggleButton>
-        </ToggleButtonGroup>
+        
+        
       </Box>
     </Drawer>
   );

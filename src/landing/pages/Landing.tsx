@@ -54,10 +54,9 @@ const Landing = () => {
               justifyContent="center"
             >
               <Button
-                component="a"
-                href={process.env.REACT_APP_SOURCE_LINK}
+                component={RouterLink}
+                to={`/${process.env.PUBLIC_URL}/register`}
                 rel="noopener noreferrer"
-                target="_blank"
                 variant="outlined"
               >
                 {t("landing.cta.secondary")}
@@ -65,7 +64,7 @@ const Landing = () => {
               {userInfo ? (
                 <Button
                   component={RouterLink}
-                  to={`/${process.env.PUBLIC_URL}/admin`}
+                  to={`/${process.env.PUBLIC_URL}/login`}
                   variant="contained"
                 >
                   {t("landing.cta.mainAuth", { name: userInfo.firstName })}
