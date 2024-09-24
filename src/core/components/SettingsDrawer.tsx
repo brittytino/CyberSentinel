@@ -20,18 +20,18 @@ type SettingsDrawerProps = {
 
 const SettingsDrawer = ({ onDrawerToggle, open }: SettingsDrawerProps) => {
   const {
-    changeCollapsed,
-    changeDirection,
+    //changeCollapsed,
+    //changeDirection,
     changeMode,
-    collapsed,
-    direction,
+    //collapsed,
+    //direction,
     mode,
   } = useSettings();
   const { i18n, t } = useTranslation();
 
-  const handleDirectionChange = (_: any, direction: "ltr" | "rtl") => {
+  /*const handleDirectionChange = (_: any, direction: "ltr" | "rtl") => {
     changeDirection(direction);
-  };
+  };*/
 
   const handleLanguageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     i18n.changeLanguage((event.target as HTMLInputElement).value);
@@ -41,9 +41,9 @@ const SettingsDrawer = ({ onDrawerToggle, open }: SettingsDrawerProps) => {
     changeMode(mode);
   };
 
-  const handleSidebarChange = (_: any, collapsed: boolean) => {
+  /*const handleSidebarChange = (_: any, collapsed: boolean) => {
     changeCollapsed(collapsed);
-  };
+  };*/
 
   return (
     <Drawer
