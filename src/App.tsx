@@ -11,42 +11,42 @@ import SnackbarProvider from "./core/contexts/SnackbarProvider";
 import usePageTracking from "./core/hooks/usePageTracking";
 
 if (process.env.NODE_ENV === "production") {
-  Sentry.init({
-    dsn: process.env.REACT_APP_SENTRY_DSN,
-  });
+    Sentry.init({
+        dsn: process.env.REACT_APP_SENTRY_DSN,
+    });
 }
 
 const queryClient = new QueryClient({
-  defaultOptions: {
-    queries: {
-      refetchOnWindowFocus: false,
-      retry: 0,
-      suspense: true,
+    defaultOptions: {
+        queries: {
+            refetchOnWindowFocus: false,
+            retry: 0,
+            suspense: true,
+        },
     },
-  },
 });
 
 function App() {
-  usePageTracking();
+    usePageTracking();
 
-  return (
-    <React.Suspense fallback={<Loader />}>
-      <Sentry.ErrorBoundary fallback={"An error has occurred"}>
-        <QueryClientProvider client={queryClient}>
-          <SettingsProvider>
-            <QueryWrapper>
-              <SnackbarProvider>
-                <AuthProvider>
-                  <AppRoutes />
-                </AuthProvider>
-              </SnackbarProvider>
-            </QueryWrapper>
-          </SettingsProvider>
-          <ReactQueryDevtools initialIsOpen />
-        </QueryClientProvider>
-      </Sentry.ErrorBoundary>
-    </React.Suspense>
-  );
+    return (
+        <React.Suspense fallback={<Loader />}>
+            <Sentry.ErrorBoundary fallback={"An error has occurred"}>
+                <QueryClientProvider client={queryClient}>
+                    <SettingsProvider>
+                        <QueryWrapper>
+                            <SnackbarProvider>
+                                <AuthProvider>
+                                    <AppRoutes />
+                                </AuthProvider>
+                            </SnackbarProvider>
+                        </QueryWrapper>
+                    </SettingsProvider>
+                    <ReactQueryDevtools initialIsOpen />
+                </QueryClientProvider>
+            </Sentry.ErrorBoundary>
+        </React.Suspense>
+    );
 }
 
 export default App;
