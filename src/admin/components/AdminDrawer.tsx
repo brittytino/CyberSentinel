@@ -40,7 +40,7 @@ export const menuItems = [
   {
     icon: PeopleIcon,
     key: "admin.drawer.menu.userManagement",
-    path: "/admin/user-management",
+    path: "/admin/products",
   },
   {
     icon: EventIcon,

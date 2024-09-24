@@ -63,7 +63,7 @@ const AppRoutes = () => {
             />
           }
         />
-        <PrivateRoute path="user-management" element={<UserManagement />} />
+        <PrivateRoute path="products" element={<UserManagement />} />
       </PrivateRoute>
       <Route path="forgot-password" element={<ForgotPassword />} />
       <Route path="forgot-password-submit" element={<ForgotPasswordSubmit />} />
