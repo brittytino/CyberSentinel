@@ -1,6 +1,10 @@
 import Grid from "@material-ui/core/Grid";
 import AttachMoneyIcon from "@material-ui/icons/AttachMoney";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
+import WarningIcon from "@material-ui/icons/Warning";
+import CheckCircleIcon from "@material-ui/icons/CheckCircle";
+import BugReportIcon from "@material-ui/icons/BugReport";
+import VerifiedIcon from "@material-ui/icons/Verified";
 import SupervisorAccountIcon from "@material-ui/icons/SupervisorAccount";
 import React from "react";
 import { useTranslation } from "react-i18next";
@@ -61,19 +65,19 @@ const Dashboard = () => {
         </Grid>
         <Grid item xs={12} md={4}>
           <ProgressWidget
-            avatar={<SupervisorAccountIcon />}
+            avatar={<CheckCircleIcon />}
             mb={2}
             title={t("dashboard.visitProgress.title")}
             value={75}
           />
           <ProgressWidget
-            avatar={<ShoppingBasketIcon />}
+            avatar={<BugReportIcon />}
             mb={2}
             title={t("dashboard.orderProgress.title")}
             value={50}
           />
           <ProgressWidget
-            avatar={<AttachMoneyIcon />}
+            avatar={<WarningIcon />}
             title={t("dashboard.salesProgress.title")}
             value={25}
           />

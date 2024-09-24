@@ -71,7 +71,7 @@ const ActivityWidget = () => {
               }}
             />
             <Line
-              name="Value"
+              name="Vulnerablities"
               type="monotone"
               dataKey="pv"
               stroke={theme.palette.primary.main}

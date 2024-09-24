@@ -219,7 +219,7 @@
       "title": "Schedule Scan"
     },
     "orderProgress": {
-      "title": "Orders"
+      "title": "Patched"
     },
     "overview": {
       "orders": "Low",
@@ -228,39 +228,39 @@
       "visits": "Total Vulnerability Scan"
     },
     "progress": {
-      "title": "Progress"
+      "title": "Threats Resolved"
     },
     "salesByAge": {
-      "title": "Sales by Age"
+      "title": "Vulnerablities Found"
     },
     "salesByCategory": {
       "legend": {
-        "books": "Books",
-        "movies": "Movies & TV",
+        "books": "Hardware",
+        "movies": "Firmware",
         "software": "Software"
       },
-      "title": "Sales by Category"
+      "title": "Severity Level by Category"
     },
     "salesHistory": {
       "title": "Scanned Firmware",
-      "unit": "$ today"
+      "unit": "yesterday"
     },
     "salesProgress": {
-      "title": "Sales"
+      "title": "Yet To Patch"
     },
     "teams": {
       "columns": {
-        "progress": "Progress",
-        "team": "Team",
-        "value": "Value"
+        "progress": "Severity Level",
+        "team": "Hardware",
+        "value": "Found"
       },
-      "title": "Teams Progress"
+      "title": "Last Scan Progress"
     },
     "users": {
       "title": "Recent Scanned Products"
     },
     "visitProgress": {
-      "title": "Visits"
+      "title": "Found"
     },
     "title": "Dashboard"
   },
