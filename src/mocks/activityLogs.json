@@ -10,7 +10,7 @@
   },
   {
     "id": "2",
-    "actor": "Tino Britty",
+    "actor": "Dharshini",
     "code": "eventUpdated",
     "createdAt": 1617868226000,
     "params": {
@@ -19,7 +19,7 @@
   },
   {
     "id": "3",
-    "actor": "Tino Britty",
+    "actor": "Mathivathini",
     "code": "userDeleted",
     "createdAt": 1617868226000,
     "params": {
@@ -28,7 +28,7 @@
   },
   {
     "id": "4",
-    "actor": "Tino Britty",
+    "actor": "Menaka",
     "code": "userUpdated",
     "createdAt": 1617868226000,
     "params": {

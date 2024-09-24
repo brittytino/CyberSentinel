@@ -257,7 +257,7 @@
       "title": "Teams Progress"
     },
     "users": {
-      "title": "Recent Users"
+      "title": "Recent Scanned Products"
     },
     "visitProgress": {
       "title": "Visits"
@@ -293,9 +293,9 @@
   },
   "landing": {
     "cta": {
-      "main": "Sign in",
+      "main": "Login",
       "mainAuth": "Continue as {{name}}",
-      "secondary": "Source code"
+      "secondary": "Sign up"
     },
     "features": {
       "more": "More on Github",
@@ -304,7 +304,7 @@
     "title": "'CyberSentinel' Web Scraping-Intelligent Vulnerability Monitoring and Protection"
   },
   "notifications": {
-    "newComment": "<bold>{{user}}</bold> has written a new comment on your profile",
+    "newComment": "<bold>{{Product}}</bold> has written a new comment on your profile",
     "unreadMessages": "You have <bold>{{quantity}}</bold> unread messages"
   },
   "profile": {
@@ -313,9 +313,9 @@
       "logs": {
         "eventAdded": "<bold>You</bold> added a new event: <bold>{{resource}}</bold>",
         "eventUpdated": "<bold>You</bold> updated event: <bold>{{resource}}</bold>",
-        "userAdded": "<bold>You</bold> added a new user: <bold>{{resource}}</bold>",
-        "userDeleted": "<bold>You</bold> deleted user: <bold>{{resource}}</bold>",
-        "userUpdated": "<bold>You</bold> updated user: <bold>{{resource}}</bold>"
+        "userAdded": "<bold>You</bold> added a new Product: <bold>{{resource}}</bold>",
+        "userDeleted": "<bold>You</bold> deleted Product: <bold>{{resource}}</bold>",
+        "userUpdated": "<bold>You</bold> updated Product: <bold>{{resource}}</bold>"
       }
     },
     "completion": {
@@ -432,17 +432,17 @@
     "modal": {
       "add": {
         "action": "Add",
-        "title": "Add User"
+        "title": "Add Product"
       },
       "edit": {
         "action": "Edit",
-        "title": "Edit User"
+        "title": "Edit Product"
       }
     },
     "notifications": {
-      "addSuccess": "{{user}} has been added!",
-      "deleteSuccess": "User(s) have been deleted!",
-      "updateSuccess": "{{user}} has been updated!"
+      "addSuccess": "{{Product}} has been added!",
+      "deleteSuccess": "Product(s) have been deleted!",
+      "updateSuccess": "{{Product}} has been updated!"
     },
     "table": {
       "headers": {
@@ -450,7 +450,7 @@
         "gender": "Gender",
         "role": "Role",
         "status": "Status",
-        "user": "User"
+        "user": "Product"
       }
     },
     "toolbar": {
