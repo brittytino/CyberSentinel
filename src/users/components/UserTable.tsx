@@ -17,12 +17,12 @@ import Typography from "@material-ui/core/Typography";
 import DeleteIcon from "@material-ui/icons/Delete";
 import EditIcon from "@material-ui/icons/Edit";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
-import PersonIcon from "@material-ui/icons/Person";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Empty from "../../core/components/Empty";
 import * as selectUtils from "../../core/utils/selectUtils";
 import { User } from "../types/user";
+import ShoppingCartIcon from "@material-ui/icons/Computer";
 
 interface HeadCell {
   id: string;
@@ -160,7 +160,7 @@ const UserRow = ({
       <TableCell>
         <Box sx={{ display: "flex", alignItems: "center" }}>
           <Avatar sx={{ mr: 3 }}>
-            <PersonIcon />
+            <ShoppingCartIcon />
           </Avatar>
           <Box>
             <Typography component="div" variant="h6">
