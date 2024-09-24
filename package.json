@@ -3,7 +3,7 @@
   "version": "0.1.0-alpha",
   "description": "OEM Vulnerablity Scrapping Tool",
   "author": "brittytino08@gmail.com>",
-  "homepage": "https://m6v3l9.github.io/cybersentinel",
+  "homepage": "https://cybersentinel.vercel.app/cybersentinel/",
   "license": "MIT",
   "dependencies": {
     "@emotion/react": "^11.1.5",
