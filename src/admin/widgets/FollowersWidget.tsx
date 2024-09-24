@@ -6,9 +6,9 @@ import Typography from "@material-ui/core/Typography";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 import ArrowDropUpIcon from "@material-ui/icons/ArrowDropUp";
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
-import EmojiEmotionsIcon from "@material-ui/icons/EmojiEmotions";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import ThumbUpIcon from "@material-ui/icons/ThumbUp";
+import EmojiEmotionsIcon from "@material-ui/icons/VerifiedUser";
+import FavoriteIcon from "@material-ui/icons/ErrorOutline";
+import ThumbUpIcon from "@material-ui/icons/BugReport";
 import React from "react";
 import { useTranslation } from "react-i18next";
 
@@ -16,26 +16,26 @@ const socials = [
   {
     bgcolor: "primary.main",
     icon: <ThumbUpIcon sx={{ color: "#fff" }} />,
-    name: "Likes",
+    name: "Total Vulnerability",
     trend: <ArrowDropUpIcon sx={{ color: "success.main" }} />,
     unitKey: "admin.home.followers.units.likes",
-    value: "26,789",
+    value: "46,789",
   },
   {
     bgcolor: "error.main",
     icon: <FavoriteIcon style={{ color: "#fff" }} />,
-    name: "Love",
+    name: "Threats",
     trend: <ArrowRightIcon sx={{ color: "action.disabled" }} />,
     unitKey: "admin.home.followers.units.love",
-    value: "6,754",
+    value: "16,754",
   },
   {
     bgcolor: "warning.main",
     icon: <EmojiEmotionsIcon style={{ color: "#fff" }} />,
-    name: "Smiles",
+    name: "Patched",
     trend: <ArrowDropDownIcon sx={{ color: "error.main" }} />,
     unitKey: "admin.home.followers.units.smiles",
-    value: "52,789",
+    value: "32,789",
   },
 ];
 
