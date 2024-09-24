@@ -18,11 +18,11 @@ import * as Yup from "yup";
 import { User } from "../types/user";
 
 const genders = [
-  { label: "userManagement.form.gender.options.f", value: "F" },
-  { label: "userManagement.form.gender.options.m", value: "M" },
-  { label: "userManagement.form.gender.options.n", value: "NC" },
+  { label: "userManagement.form.gender.options.Hardware", value: "Hardware" },
+  { label: "userManagement.form.gender.options.Software", value: "Software" },
+  { label: "userManagement.form.gender.options.n/a", value: "NA" },
 ];
-const roles = ["Admin", "Member"];
+const roles = ["HP", "Dell","Others"];
 
 type UserDialogProps = {
   onAdd: (user: Partial<User>) => void;
@@ -86,21 +86,7 @@ const UserDialog = ({
             : t("userManagement.modal.add.title")}
         </DialogTitle>
         <DialogContent>
-          <TextField
-            margin="normal"
-            required
-            fullWidth
-            id="lastName"
-            label={t("userManagement.form.lastName.label")}
-            name="lastName"
-            autoComplete="family-name"
-            autoFocus
-            disabled={processing}
-            value={formik.values.lastName}
-            onChange={formik.handleChange}
-            error={formik.touched.lastName && Boolean(formik.errors.lastName)}
-            helperText={formik.touched.lastName && formik.errors.lastName}
-          />
+          
           <TextField
             margin="normal"
             required

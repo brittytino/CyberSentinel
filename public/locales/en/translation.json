@@ -409,24 +409,22 @@
         "label": "Disabled"
       },
       "email": {
-        "label": "Email Address"
+        "label": "Date"
       },
       "firstName": {
-        "label": "First Name"
+        "label": "Product Name"
       },
       "gender": {
-        "label": "Gender",
+        "label": "Type",
         "options": {
-          "f": "Female",
-          "m": "Male",
-          "n": "NC"
+          "Hardware": "Hardware",
+          "Software": "Software",
+          "n/a": "NA"
         }
       },
-      "lastName": {
-        "label": "Last Name"
-      },
+
       "role": {
-        "label": "Role"
+        "label": "OEM"
       }
     },
     "modal": {
@@ -447,8 +445,8 @@
     "table": {
       "headers": {
         "actions": "Actions",
-        "gender": "Gender",
-        "role": "Role",
+        "gender": "Date",
+        "role": "OEM",
         "status": "Status",
         "user": "Product"
       }

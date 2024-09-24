@@ -3,110 +3,110 @@
     "id": "1",
     "avatar": "",
     "disabled": false,
-    "email": "rhys@arriaga.com",
-    "firstName": "Rhys",
-    "gender": "M",
-    "lastName": "Arriaga",
-    "role": "Admin"
+    "email": "Software",
+    "firstName": "",
+    "gender": "12-09-2024",
+    "lastName": "Television",
+    "role": "Sony"
   },
   {
     "id": "2",
     "avatar": "",
     "disabled": false,
-    "email": "laura@core.com",
-    "firstName": "Laura",
-    "gender": "F",
-    "lastName": "Core",
-    "role": "Member"
+    "email": "Hardware",
+    "firstName": "Servers",
+    "gender": "13-09-2024",
+    "lastName": "",
+    "role": "Dell"
   },
   {
     "id": "3",
     "avatar": "",
     "disabled": false,
-    "email": "joshua@jagger.com",
-    "firstName": "Joshua",
-    "gender": "M",
-    "lastName": "Jagger",
-    "role": "Member"
+    "email": "Software",
+    "firstName": "Zoho CRM",
+    "gender": "15-09-2024",
+    "lastName": "",
+    "role": "Zoho"
   },
   {
     "id": "4",
     "avatar": "",
     "disabled": true,
-    "email": "jason@jimenez.com",
-    "firstName": "Jason",
-    "gender": "M",
-    "lastName": "Jimenez",
-    "role": "Member"
+    "email": "Hardware",
+    "firstName": "Printers",
+    "gender": "18-09-2024",
+    "lastName": "",
+    "role": "HP"
   },
   {
     "id": "5",
     "avatar": "",
     "disabled": true,
-    "email": "rhonda@mcguire.com",
-    "firstName": "Rhonda",
-    "gender": "F",
-    "lastName": "Mcguire",
-    "role": "Member"
+    "email": "Hardware",
+    "firstName": "Routers",
+    "gender": "21-09-2024",
+    "lastName": "",
+    "role": "TP-Link"
   },
   {
     "id": "6",
     "avatar": "",
     "disabled": false,
-    "email": "aaron@moreno.com",
-    "firstName": "Aaron",
-    "gender": "M",
-    "lastName": "Moreno",
-    "role": "Member"
+    "email": "Software",
+    "firstName": "Antivirus Software",
+    "gender": "23-09-2024",
+    "lastName": "",
+    "role": "K7 Antivirus"
   },
   {
     "id": "7",
     "avatar": "",
     "disabled": false,
-    "email": "carley@murray.com",
-    "firstName": "Carley",
-    "gender": "F",
-    "lastName": "Murray",
-    "role": "Member"
+    "email": "Hardware",
+    "firstName": "Switches",
+    "gender": "24-09-2024",
+    "lastName": "",
+    "role": "D-Link"
   },
   {
     "id": "8",
     "avatar": "",
     "disabled": false,
-    "email": "cherise@owen.com",
-    "firstName": "Cherise",
-    "gender": "F",
-    "lastName": "Owen",
-    "role": "Member"
+    "email": "Hardware",
+    "firstName": "Laptops",
+    "gender": "25-09-2024",
+    "lastName": "",
+    "role": "Asus"
   },
   {
     "id": "9",
     "avatar": "",
     "disabled": false,
-    "email": "nathan@romero.com",
-    "firstName": "Nathan",
-    "gender": "M",
-    "lastName": "Romero",
-    "role": "Member"
+    "email": "Hardware",
+    "firstName": "Mouse",
+    "gender": "27-09-2024",
+    "lastName": "",
+    "role": "Logitech"
   },
   {
     "id": "10",
     "avatar": "",
     "disabled": false,
-    "email": "olivia@spence.com",
-    "firstName": "Olivia",
-    "gender": "F",
-    "lastName": "Spence",
-    "role": "Member"
+    "email": "Hardware",
+    "firstName": "Keyboard",
+    "gender": "29-09-2024",
+    "lastName": "",
+    "role": "HP"
   },
   {
     "id": "11",
     "avatar": "",
     "disabled": false,
-    "email": "elisha@wade.com",
-    "firstName": "Elisha",
-    "gender": "F",
-    "lastName": "Wade",
-    "role": "Member"
+    "email": "Hardware",
+    "firstName": "Digital Fridge",
+    "gender": "30-09-2024",
+    "lastName": "",
+    "role": "LG"
   }
 ]
