@@ -1,5 +1,5 @@
 import Box, { BoxProps } from "@material-ui/core/Box";
-import { ReactComponent as LogoSvg } from "../assets/logo1.svg";
+import { ReactComponent as LogoSvg } from "../assets/logo123.svg";
 
 type LogoProps = {
   colored?: boolean;
