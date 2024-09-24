@@ -1,8 +1,8 @@
 {
   "name": "cybersentinel",
   "version": "0.1.0-alpha",
-  "description": "Free and open-source admin application made with React",
-  "author": "m6v3l9 <m6v3l9@gmail.com>",
+  "description": "OEM Vulnerablity Scrapping Tool",
+  "author": "brittytino08@gmail.com>",
   "homepage": "https://m6v3l9.github.io/cybersentinel",
   "license": "MIT",
   "dependencies": {
