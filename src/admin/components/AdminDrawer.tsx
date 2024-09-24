@@ -45,12 +45,12 @@ export const menuItems = [
   {
     icon: EventIcon,
     key: "admin.drawer.menu.calendar",
-    path: "/admin/calendar",
+    path: "/admin/schedule",
   },
   {
     icon: AccountTreeIcon,
     key: "admin.drawer.menu.projects",
-    path: "/admin/projects",
+    path: "/admin/chatbot",
   },
   {
     icon: HelpCenterIcon,

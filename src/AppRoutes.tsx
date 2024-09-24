@@ -45,7 +45,7 @@ const AppRoutes = () => {
       <Route path="/" element={<Landing />} />
       <PrivateRoute path="admin" element={<Admin />}>
         <PrivateRoute path="/" element={<Home />} />
-        <PrivateRoute path="calendar" element={<CalendarApp />} />
+        <PrivateRoute path="schedule" element={<CalendarApp />} />
         <PrivateRoute path="dashboard" element={<Dashboard />} />
         <PrivateRoute path="faq" element={<Faq />} />
         <PrivateRoute path="help" element={<HelpCenter />} />
@@ -55,7 +55,7 @@ const AppRoutes = () => {
           <PrivateRoute path="password" element={<ProfilePassword />} />
         </PrivateRoute>
         <PrivateRoute
-          path="projects"
+          path="chatbot"
           element={
             <Navigate
               to={`/${process.env.PUBLIC_URL}/under-construction`}
