@@ -1,24 +1,6 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "build"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
-  "env": {
-    "REACT_APP_GA_TRACKING_ID": "your-tracking-id"  
-  },
-  "github": {
-    "enabled": true
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/index.html" }
+    ]
   }
-}
+  

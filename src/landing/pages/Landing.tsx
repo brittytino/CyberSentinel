@@ -1,9 +1,9 @@
-//import Avatar from "@material-ui/core/Avatar";
+import Avatar from "@material-ui/core/Avatar";
 import Box from "@material-ui/core/Box";
 import Button from "@material-ui/core/Button";
 import Container from "@material-ui/core/Container";
 import Stack from "@material-ui/core/Stack";
-//import { useTheme } from "@material-ui/core/styles";
+import { useTheme } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import { useTranslation } from "react-i18next";
 import { Link as RouterLink } from "react-router-dom";
@@ -14,7 +14,7 @@ import PricingSection from "../components/PricingSection";  // Import the new Pr
 
 const Landing = () => {
   const { userInfo } = useAuth();
-  //const theme = useTheme();
+  const theme = useTheme();
   const { t } = useTranslation();
 
   return (
