@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios'; // For making API requests
 import { useNavigate } from 'react-router-dom';
-import { PaperAirplaneIcon, ChipIcon } from '@heroicons/react/solid'; // Tailwind SVG icons
+import { PaperAirplaneIcon } from '@heroicons/react/outline';
 
 const AIChatbot: React.FC = () => {
   const [messages, setMessages] = useState<{ type: string; content: string }[]>([]);
