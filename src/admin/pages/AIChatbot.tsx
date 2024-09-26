@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import axios from 'axios'; // For making API requests
+import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import SendIcon from '@mui/icons-material/Send'; // Use SendIcon from Material-UI
-import CategoryIcon from '@mui/icons-material/Category'; // Use CategoryIcon instead of ChipIcon
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPaperPlane, faTag } from '@fortawesome/free-solid-svg-icons';
 
 const AIChatbot: React.FC = () => {
   const [messages, setMessages] = useState<{ type: string; content: string }[]>([]);
@@ -15,7 +15,7 @@ const AIChatbot: React.FC = () => {
     // Add user message
     setMessages([...messages, { type: 'user', content: input }]);
 
-    // Simulate bot response or use free API here (e.g., OpenAI, or mock API)
+    // Simulate bot response or use free API here
     try {
       const response = await axios.post('https://some-free-api.com/vulnerability-chat', { query: input });
       const botResponse = response.data.answer || 'Sorry, I didn’t understand that. Please ask about vulnerability scraping.';
@@ -38,7 +38,7 @@ const AIChatbot: React.FC = () => {
       <div className="max-w-lg w-full bg-white shadow-xl rounded-lg p-6">
         <div className="flex items-center justify-between">
           <h2 className="text-xl font-semibold">Cybersentinel Chatbot</h2>
-          <CategoryIcon className="h-6 w-6 text-blue-500" /> {/* Use CategoryIcon */}
+          <FontAwesomeIcon icon={faTag} className="h-6 w-6 text-blue-500" />
         </div>
 
         <div className="mt-4 h-96 overflow-y-auto border border-gray-300 rounded-lg p-4">
@@ -63,7 +63,7 @@ const AIChatbot: React.FC = () => {
             onClick={handleSendMessage}
             className="ml-2 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
           >
-            <SendIcon className="h-5 w-5" /> {/* Use SendIcon */}
+            <FontAwesomeIcon icon={faPaperPlane} className="h-5 w-5" />
           </button>
         </div>
 
