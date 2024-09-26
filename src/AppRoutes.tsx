@@ -7,7 +7,6 @@ const Admin = lazy(() => import("./admin/pages/Admin"));
 const Dashboard = lazy(() => import("./admin/pages/Dashboard"));
 const Faq = lazy(() => import("./admin/pages/Faq"));
 const HelpCenter = lazy(() => import("./admin/pages/HelpCenter"));
-const Chatbot = lazy(() => import("./admin/pages/Chatbot"));
 const Home = lazy(() => import("./admin/pages/Home"));
 const Profile = lazy(() => import("./admin/pages/Profile"));
 const ProfileActivity = lazy(() => import("./admin/pages/ProfileActivity"));
@@ -50,12 +49,21 @@ const AppRoutes = () => {
         <PrivateRoute path="dashboard" element={<Dashboard />} />
         <PrivateRoute path="faq" element={<Faq />} />
         <PrivateRoute path="help" element={<HelpCenter />} />
-        <PrivateRoute path="chatbot" element={<Chatbot />} />
         <PrivateRoute path="profile" element={<Profile />}>
           <PrivateRoute path="/" element={<ProfileActivity />} />
           <PrivateRoute path="information" element={<ProfileInformation />} />
           <PrivateRoute path="password" element={<ProfilePassword />} />
         </PrivateRoute>
+        <PrivateRoute
+          path="chatbot"
+          element={
+            <Navigate
+              to={`/${process.env.PUBLIC_URL}/under-construction`}
+              replace
+            />
+          }
+        />
+        <PrivateRoute path="products" element={<UserManagement />} />
       </PrivateRoute>
       <Route path="forgot-password" element={<ForgotPassword />} />
       <Route path="forgot-password-submit" element={<ForgotPasswordSubmit />} />

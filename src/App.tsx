@@ -10,7 +10,6 @@ import QueryWrapper from "./core/components/QueryWrapper";
 import SettingsProvider from "./core/contexts/SettingsProvider";
 import SnackbarProvider from "./core/contexts/SnackbarProvider";
 import usePageTracking from "./core/hooks/usePageTracking";
-import Chatbot from "./admin/pages/Chatbot"; // Import the new Chatbot component
 
 if (process.env.NODE_ENV === "production") {
   Sentry.init({
@@ -42,7 +41,6 @@ function App() {
                 <AuthProvider>
                   <Router>
                     <Routes>
-                      <Route path="/chatbot" element={<Chatbot />} />
                       <Route path="/*" element={<AppRoutes />} />
                     </Routes>
                   </Router>
