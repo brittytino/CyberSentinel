@@ -2,7 +2,7 @@ import * as Sentry from "@sentry/react";
 import React from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
-import AppRoutes from "./AppRoutes";
+import AppRoutes from "./AppRoutes"; // Ensure you are importing AppRoutes correctly
 import AuthProvider from "./auth/contexts/AuthProvider";
 import Loader from "./core/components/Loader";
 import QueryWrapper from "./core/components/QueryWrapper";
@@ -38,7 +38,7 @@ function App() {
             <QueryWrapper>
               <SnackbarProvider>
                 <AuthProvider>
-                  <AppRoutes />
+                  <AppRoutes /> {/* This will route to AIChatbot as well */}
                 </AuthProvider>
               </SnackbarProvider>
             </QueryWrapper>

@@ -39,6 +39,9 @@ const Landing = lazy(() => import("./landing/pages/Landing"));
 // Users
 const UserManagement = lazy(() => import("./users/pages/UserManagement"));
 
+// Chatbot
+const AIChatbot = lazy(() => import("./components/AIChatbot")); // Import the AIChatbot component
+
 const AppRoutes = () => {
   return (
     <Routes basename={process.env.PUBLIC_URL}>
@@ -54,15 +57,8 @@ const AppRoutes = () => {
           <PrivateRoute path="information" element={<ProfileInformation />} />
           <PrivateRoute path="password" element={<ProfilePassword />} />
         </PrivateRoute>
-        <PrivateRoute
-          path="chatbot"
-          element={
-            <Navigate
-              to={`/${process.env.PUBLIC_URL}/under-construction`}
-              replace
-            />
-          }
-        />
+        {/* Route to AIChatbot */}
+        <PrivateRoute path="chatbot" element={<AIChatbot />} />
         <PrivateRoute path="products" element={<UserManagement />} />
       </PrivateRoute>
       <Route path="forgot-password" element={<ForgotPassword />} />
