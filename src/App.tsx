@@ -2,7 +2,6 @@ import * as Sentry from "@sentry/react";
 import React from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AppRoutes from "./AppRoutes";
 import AuthProvider from "./auth/contexts/AuthProvider";
 import Loader from "./core/components/Loader";
@@ -39,11 +38,7 @@ function App() {
             <QueryWrapper>
               <SnackbarProvider>
                 <AuthProvider>
-                  <Router>
-                    <Routes>
-                      <Route path="/*" element={<AppRoutes />} />
-                    </Routes>
-                  </Router>
+                  <AppRoutes />
                 </AuthProvider>
               </SnackbarProvider>
             </QueryWrapper>
