@@ -40,7 +40,7 @@ const Landing = lazy(() => import("./landing/pages/Landing"));
 const UserManagement = lazy(() => import("./users/pages/UserManagement"));
 
 // Chatbot
-const AIChatbot = lazy(() => import("./components/AIChatbot")); // Import the AIChatbot component
+const AIChatbot = lazy(() => import("./admin/pages/AIChatbot")); // Import the AIChatbot component
 
 const AppRoutes = () => {
   return (
