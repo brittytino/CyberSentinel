@@ -58,7 +58,7 @@ const AppRoutes = () => {
           path="chatbot"
           element={
             <Navigate
-              to={`/${process.env.PUBLIC_URL}/under-construction`}
+              to={`/${process.env.PUBLIC_URL}/chatbot`}
               replace
             />
           }
