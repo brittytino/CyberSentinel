@@ -7,6 +7,7 @@ const Admin = lazy(() => import("./admin/pages/Admin"));
 const Dashboard = lazy(() => import("./admin/pages/Dashboard"));
 const Faq = lazy(() => import("./admin/pages/Faq"));
 const HelpCenter = lazy(() => import("./admin/pages/HelpCenter"));
+const Chatbot = lazy(() => import("./admin/pages/Chatbot"));
 const Home = lazy(() => import("./admin/pages/Home"));
 const Profile = lazy(() => import("./admin/pages/Profile"));
 const ProfileActivity = lazy(() => import("./admin/pages/ProfileActivity"));
@@ -63,7 +64,7 @@ const AppRoutes = () => {
             />
           }
         />
-        <PrivateRoute path="products" element={<UserManagement />} />
+        <PrivateRoute path="products" element={<Chatbot />} />
       </PrivateRoute>
       <Route path="forgot-password" element={<ForgotPassword />} />
       <Route path="forgot-password-submit" element={<ForgotPasswordSubmit />} />
