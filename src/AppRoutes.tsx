@@ -50,21 +50,12 @@ const AppRoutes = () => {
         <PrivateRoute path="dashboard" element={<Dashboard />} />
         <PrivateRoute path="faq" element={<Faq />} />
         <PrivateRoute path="help" element={<HelpCenter />} />
+        <PrivateRoute path="chatbot" element={<Chatbot />} />
         <PrivateRoute path="profile" element={<Profile />}>
           <PrivateRoute path="/" element={<ProfileActivity />} />
           <PrivateRoute path="information" element={<ProfileInformation />} />
           <PrivateRoute path="password" element={<ProfilePassword />} />
         </PrivateRoute>
-        <PrivateRoute
-          path="chatbot"
-          element={
-            <Navigate
-              to={`/${process.env.PUBLIC_URL}/chatbot`}
-              replace
-            />
-          }
-        />
-        <PrivateRoute path="products" element={<Chatbot />} />
       </PrivateRoute>
       <Route path="forgot-password" element={<ForgotPassword />} />
       <Route path="forgot-password-submit" element={<ForgotPasswordSubmit />} />
