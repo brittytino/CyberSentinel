@@ -2,6 +2,7 @@ import * as Sentry from "@sentry/react";
 import React from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AppRoutes from "./AppRoutes";
 import AuthProvider from "./auth/contexts/AuthProvider";
 import Loader from "./core/components/Loader";
@@ -9,6 +10,7 @@ import QueryWrapper from "./core/components/QueryWrapper";
 import SettingsProvider from "./core/contexts/SettingsProvider";
 import SnackbarProvider from "./core/contexts/SnackbarProvider";
 import usePageTracking from "./core/hooks/usePageTracking";
+import Chatbot from "./admin/pages/Chatbot"; // Import the new Chatbot component
 
 if (process.env.NODE_ENV === "production") {
   Sentry.init({
@@ -38,7 +40,12 @@ function App() {
             <QueryWrapper>
               <SnackbarProvider>
                 <AuthProvider>
-                  <AppRoutes />
+                  <Router>
+                    <Routes>
+                      <Route path="/chatbot" element={<Chatbot />} />
+                      <Route path="/*" element={<AppRoutes />} />
+                    </Routes>
+                  </Router>
                 </AuthProvider>
               </SnackbarProvider>
             </QueryWrapper>
