@@ -24,11 +24,11 @@ import UsersWidget from "../widgets/UsersWidget";
 const overviewItems = [
   {
     unit: "dashboard.overview.visits",
-    value: "20 700",
+    value: "20700",
   },
   {
     unit: "dashboard.overview.sales",
-    value: "$ 1 550",
+    value: "1550",
   },
   {
     unit: "dashboard.overview.orders",
