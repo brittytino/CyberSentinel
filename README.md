@@ -1,5 +1,3 @@
----
-
 # 🛡️ CyberSentinel: OEM Vulnerability Scripting Tool
 
 **CyberSentinel** is a powerful vulnerability monitoring tool designed to automate the process of tracking critical and high-severity vulnerabilities in software, hardware, and firmware from Original Equipment Manufacturers (OEMs). The platform scrapes OEM and relevant sites, alerting users in real time about vulnerabilities via email, Slack, WhatsApp, Teams, and other communication channels. This system helps prevent the risk of missing critical updates, offering users a proactive approach to vulnerability management.
